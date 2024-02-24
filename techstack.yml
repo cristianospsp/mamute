@@ -1,0 +1,1635 @@
+repo_name: cristianospsp/mamute
+report_id: de632d354bbc4372dc5b3efa75d97a6d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-24T20:54:57+00:00'
+requested_by: csokol
+provider: github
+branch: master
+detected_tools_count: 84
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/cristianospsp/mamute
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/cristianospsp/mamute
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/cristianospsp/mamute
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/src/main/resources/db_structure.sql
+  detection_source: src/main/resources/db_structure.sql
+  last_updated_by: leonardowolter
+  last_updated_on: 2013-03-01 20:17:32.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/cristianospsp/mamute
+  detection_source: Repo Metadata
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Francisco Sokol
+  last_updated_on: 2014-09-18 16:53:32.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Taylor Jones
+  last_updated_on: 2014-08-13 23:28:02.000000000 Z
+- name: Hibernate
+  description: Idiomatic persistence for Java and relational databases.
+  website_url: http://hibernate.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/src/main/resources/acceptance/hibernate.cfg.xml
+  detection_source: src/main/resources/acceptance/hibernate.cfg.xml
+  last_updated_by: Francisco Sokol
+  last_updated_on: 2013-08-01 17:19:53.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: guilherme
+  last_updated_on: 2013-01-31 19:03:34.000000000 Z
+- name: Eclipse
+  description: IDE for Java EE Developers
+  website_url: https://www.eclipse.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Taylor Jones
+  last_updated_on: 2014-08-26 01:59:17.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/cristianospsp/mamute
+  detection_source: Repo Metadata
+- name: GlassFish
+  description: The Open Source Java EE Reference Implementation
+  website_url: https://glassfish.java.net
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-09 21:38:45.000000000 Z
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: 0.4.5
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-09-15 15:47:55.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: guilherme
+  last_updated_on: 2013-01-31 19:03:34.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: guilherme
+  last_updated_on: 2013-01-31 19:03:34.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 1.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-05 20:43:12.000000000 Z
+- name: New Relic
+  description: New Relic is the industry’s largest and most comprehensive cloud-based
+    observability platform.
+  website_url: http://newrelic.com
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/103/default_193410db3a7e419c7b436961bf41d733c7346b59.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/newrelic/newrelic.jar
+  detection_source: newrelic/newrelic.jar
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: guilherme
+  last_updated_on: 2013-01-31 19:03:34.000000000 Z
+- name: Scalr
+  description: Scalr is a remote state &amp; operations backend for Terraform with
+    access controls and policy as code
+  website_url: http://scalr.com
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Cloud Management
+  image_url: https://img.stackshare.io/service/222/default_6522a9e0a115f2414dbf9653e22087a2ec20e2a2.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Marco Salles
+  last_updated_on: 2013-10-17 16:55:44.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-08-19 18:02:31.000000000 Z
+- name: Apache Solr
+  description: An open source search platform
+  website_url: http://lucene.apache.org/solr/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/4483/default_2e67ca5c691a5ecab8b19ffaeb371128b4266409.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Francisco Sokol
+  last_updated_on: 2014-09-18 16:53:32.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/cristianospsp/mamute
+  detection_source: Repo Metadata
+- name: antlr:antlr
+  description: Antlr v3 repository
+  version: 2.7.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: guilherme
+  last_updated_on: 2013-01-31 19:03:34.000000000 Z
+- name: br.com.caelum:vraptor
+  description: A web MVC action-based framework
+  version: 4.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-29 16:43:49.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-05 20:43:12.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer
+  description: A fast and easy to configure HTML Sanitizer written in Java which lets
+    you include HTML authored by third-parties in your web application while protecting
+    against XSS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-05 20:43:12.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  version: 1.4.180
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-05 20:43:12.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary code execution in H2 Console
+    cve_id: CVE-2022-23221
+    cve_url: https://github.com/advisories/GHSA-45hx-wfhj-473x
+    detected_date: Jan 22
+    severity: critical
+    first_patched: 2.1.210
+  - name: RCE in H2 Console
+    cve_id: CVE-2021-42392
+    cve_url: https://github.com/advisories/GHSA-h376-j262-vhq6
+    detected_date: Jan 7
+    severity: critical
+    first_patched: 2.0.206
+  - name: 'Password exposure in H2 Database '
+    cve_id: CVE-2022-45868
+    cve_url: https://github.com/advisories/GHSA-22wj-vf5f-wrvj
+    detected_date: Nov 24
+    severity: high
+    first_patched: 2.2.220
+- name: com.thoughtworks.xstream:xstream
+  description: XStream is a serialization library from Java objects to XML and back
+  version: 1.3.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-05 20:43:12.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data and Code Injection in xstream
+    cve_id: CVE-2019-10173
+    cve_url: https://github.com/advisories/GHSA-hf23-9pf7-388p
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.4.11
+  - name: Command Injection in Xstream
+    cve_id: CVE-2013-7285
+    cve_url: https://github.com/advisories/GHSA-f554-x222-wgf7
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.4.7
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39145
+    cve_url: https://github.com/advisories/GHSA-8jrj-525p-826v
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream can cause Denial of Service via stack overflow
+    cve_id: CVE-2022-41966
+    cve_url: https://github.com/advisories/GHSA-j563-grx4-pjpv
+    detected_date: Dec 29
+    severity: high
+    first_patched: 1.4.20
+  - name: XStream is vulnerable to a Remote Command Execution attack
+    cve_id: CVE-2021-29505
+    cve_url: https://github.com/advisories/GHSA-7chv-rrw6-w6fc
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.17
+  - name: XStream can be used for Remote Code Execution
+    cve_id: CVE-2020-26217
+    cve_url: https://github.com/advisories/GHSA-mw36-7c6c-q4q2
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.14-jdk7
+  - name: XStream can cause a Denial of Service by injecting deeply nested objects
+      raising a stack overflow
+    cve_id: CVE-2022-40151
+    cve_url: https://github.com/advisories/GHSA-f8cc-g7j8-xxpm
+    detected_date: Dec 31
+    severity: high
+    first_patched: 1.4.20
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39154
+    cve_url: https://github.com/advisories/GHSA-6w62-hx7r-mw68
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39153
+    cve_url: https://github.com/advisories/GHSA-2q8x-2p7f-574v
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: A Server-Side Forgery Request can be activated unmarshalling with XStream
+      to access data streams from an arbitrary URL referencing a resource in an intranet
+      or the local host
+    cve_id: CVE-2021-39152
+    cve_url: https://github.com/advisories/GHSA-xw4p-crpj-vjx2
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39151
+    cve_url: https://github.com/advisories/GHSA-hph2-m3g5-xxv4
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: A Server-Side Forgery Request can be activated unmarshalling with XStream
+      to access data streams from an arbitrary URL referencing a resource in an intranet
+      or the local host
+    cve_id: CVE-2021-39150
+    cve_url: https://github.com/advisories/GHSA-cxfm-5m4g-x7xp
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39149
+    cve_url: https://github.com/advisories/GHSA-3ccq-5vw3-2p6x
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39148
+    cve_url: https://github.com/advisories/GHSA-qrx8-8545-4wg2
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39147
+    cve_url: https://github.com/advisories/GHSA-h7v4-7xg3-hxcc
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39146
+    cve_url: https://github.com/advisories/GHSA-p8pq-r894-fm8f
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to a Remote Command Execution attack
+    cve_id: CVE-2021-39144
+    cve_url: https://github.com/advisories/GHSA-j9h8-phrw-h4fh
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39141
+    cve_url: https://github.com/advisories/GHSA-g5w6-mrj7-75h2
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39139
+    cve_url: https://github.com/advisories/GHSA-64xx-cq4q-mf44
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40153
+    cve_url: https://github.com/advisories/GHSA-fv22-xp26-mm9w
+    detected_date: Sep 21
+    severity: high
+    first_patched: 
+  - name: XStream can cause a Denial of Service.
+    cve_id: CVE-2021-21341
+    cve_url: https://github.com/advisories/GHSA-2p3x-qw9c-25hh
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.16
+  - name: Server-Side Forgery Request can be activated unmarshalling with XStream
+    cve_id: CVE-2020-26258
+    cve_url: https://github.com/advisories/GHSA-4cch-wxpw-8p28
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.15
+  - name: XML External Entity Injection in XStream
+    cve_id: CVE-2016-3674
+    cve_url: https://github.com/advisories/GHSA-rgh3-987h-wpmw
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.9
+  - name: Denial of service in XStream
+    cve_id: CVE-2017-7957
+    cve_url: https://github.com/advisories/GHSA-7hwc-46rm-65jh
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.10
+  - name: Denial of Service by injecting highly recursive collections or maps in XStream
+    cve_id: CVE-2021-43859
+    cve_url: https://github.com/advisories/GHSA-rmr5-cpv2-vgjf
+    detected_date: Feb 1
+    severity: high
+    first_patched: 1.4.19
+  - name: A Server-Side Forgery Request can be activated unmarshalling with XStream
+      to access data streams from an arbitrary URL referencing a resource in an intranet
+      or the local host
+    cve_id: CVE-2021-21349
+    cve_url: https://github.com/advisories/GHSA-f6hm-88x3-mfjv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an attack using Regular Expression for a Denial
+      of Service (ReDos)
+    cve_id: CVE-2021-21348
+    cve_url: https://github.com/advisories/GHSA-56p8-3fh9-4cvq
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-21347
+    cve_url: https://github.com/advisories/GHSA-qpfq-ph7r-qv6f
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-21346
+    cve_url: https://github.com/advisories/GHSA-4hrm-m67v-5cxr
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-21344
+    cve_url: https://github.com/advisories/GHSA-59jw-jqf4-3wq3
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an Arbitrary File Deletion on the local host when
+      unmarshalling as long as the executing process has sufficient rights
+    cve_id: CVE-2021-21343
+    cve_url: https://github.com/advisories/GHSA-74cv-f58x-f9wf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-21351
+    cve_url: https://github.com/advisories/GHSA-hrcp-8f3q-4w2c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream vulnerable to an Arbitrary File Deletion on the local host when
+      unmarshalling
+    cve_id: CVE-2020-26259
+    cve_url: https://github.com/advisories/GHSA-jfvx-7wrx-43fh
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.15
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-21350
+    cve_url: https://github.com/advisories/GHSA-43gc-mjxg-gvrq
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: A Server-Side Forgery Request can be activated unmarshalling with XStream
+      to access data streams from an arbitrary URL referencing a resource in an intranet
+      or the local host
+    cve_id: CVE-2021-21342
+    cve_url: https://github.com/advisories/GHSA-hvv8-336g-rx3m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream can cause a Denial of Service
+    cve_id: CVE-2021-39140
+    cve_url: https://github.com/advisories/GHSA-6wf9-jmg9-vxcc
+    detected_date: Aug 26
+    severity: moderate
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to a Remote Command Execution attack
+    cve_id: CVE-2021-21345
+    cve_url: https://github.com/advisories/GHSA-hwpc-8xqv-jvj4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40152
+    cve_url: https://github.com/advisories/GHSA-3f7h-mf4q-vrm4
+    detected_date: Sep 21
+    severity: low
+    first_patched: 
+  - name: XStream Denial of Service via stack overflow
+    cve_id: CVE-2022-40154
+    cve_url: https://github.com/advisories/GHSA-9fwf-46g9-45rx
+    detected_date: Sep 22
+    severity: low
+    first_patched: 
+  - name: XStream Denial of Service via stack overflow
+    cve_id: CVE-2022-40155
+    cve_url: https://github.com/advisories/GHSA-5hc5-c3m9-8vcj
+    detected_date: Sep 22
+    severity: low
+    first_patched: 
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40156
+    cve_url: https://github.com/advisories/GHSA-4rv7-wj6m-6c6r
+    detected_date: Sep 21
+    severity: low
+    first_patched: 
+  - name: 'Duplicate Advisory: Denial of Service due to parser crash'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-3mq5-fq9h-gj7j
+    detected_date: Sep 21
+    severity: low
+    first_patched: 
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  version: '1.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Taylor Jones
+  last_updated_on: 2014-08-26 01:59:17.000000000 Z
+- name: commons-collections:commons-collections
+  description: Types that extend and augment the Java Collections Framework
+  version: 3.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Francisco Sokol
+  last_updated_on: 2014-11-07 20:37:37.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Apache commons collections
+    cve_id: CVE-2015-7501
+    cve_url: https://github.com/advisories/GHSA-fjq5-5j5f-mvxh
+    detected_date: Nov 4
+    severity: critical
+    first_patched: 3.2.2
+  - name: Insecure Deserialization in Apache Commons Collection
+    cve_id: CVE-2015-6420
+    cve_url: https://github.com/advisories/GHSA-6hgm-866r-3cjv
+    detected_date: Jan 28
+    severity: high
+    first_patched: 3.2.2
+- name: commons-fileupload:commons-fileupload
+  description: The Apache Commons FileUpload component provides a simple yet flexible
+    means of adding support for multipart file upload functionality to servlets and
+    web applications
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Taylor Jones
+  last_updated_on: 2014-08-26 01:59:17.000000000 Z
+  vulnerabilities:
+  - name: Improper Access Control in commons-fileupload
+    cve_id: CVE-2016-1000031
+    cve_url: https://github.com/advisories/GHSA-7x9j-7223-rg5m
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.3.3
+  - name: High severity vulnerability that affects commons-fileupload:commons-fileupload
+    cve_id: CVE-2016-3092
+    cve_url: https://github.com/advisories/GHSA-fvm3-cfvj-gxqq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.3.2
+  - name: Apache Commons FileUpload denial of service vulnerability
+    cve_id: CVE-2023-24998
+    cve_url: https://github.com/advisories/GHSA-hfrx-6qgj-fp6c
+    detected_date: Feb 22
+    severity: high
+    first_patched: '1.5'
+  - name: Arbitrary file write in Apache Commons Fileupload
+    cve_id: CVE-2013-2186
+    cve_url: https://github.com/advisories/GHSA-qx6h-9567-5fqw
+    detected_date: Nov 4
+    severity: high
+    first_patched: 1.3.1
+  - name: Commons FileUpload Denial of service vulnerability
+    cve_id: CVE-2014-0050
+    cve_url: https://github.com/advisories/GHSA-xx68-jfcg-xmmf
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.3.1
+  - name: Incorrect Default Permissions in Apache Commons FileUpload
+    cve_id: CVE-2013-0248
+    cve_url: https://github.com/advisories/GHSA-vm69-474v-7q2w
+    detected_date: Jul 9
+    severity: low
+    first_patched: 1.2.2
+- name: commons-httpclient:commons-httpclient
+  description: The HttpClient component supports the client-side of RFC 1945
+  version: '3.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Francisco Sokol
+  last_updated_on: 2014-09-18 16:53:32.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: 2.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Taylor Jones
+  last_updated_on: 2014-08-26 01:59:17.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: de.odysseus.juel:juel-api
+  description: Java Unified Expression Language
+  version: 2.2.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-05 20:43:12.000000000 Z
+- name: de.odysseus.juel:juel-impl
+  description: Java Unified Expression Language
+  version: 2.2.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-04 21:57:38.000000000 Z
+- name: javax.mail:mail
+  description: "${project.name}"
+  version: 1.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-05 20:43:12.000000000 Z
+- name: javax.servlet:jstl
+  version: '1.2'
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-05 20:43:12.000000000 Z
+- name: javax.transaction:jta
+  description: The javax.transaction package
+  version: '1.1'
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Francisco Sokol
+  last_updated_on: 2014-11-07 20:37:37.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  version: '2.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Rodrigo Turini
+  last_updated_on: 2014-03-31 16:05:43.000000000 Z
+- name: joda-time:joda-time-hibernate
+  description: Contribution to Joda-Time that adds Hibernate support
+  version: '1.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-29 16:43:49.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Francisco Sokol
+  last_updated_on: 2013-03-26 21:57:36.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 5.1.19
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: leonardowolter
+  last_updated_on: 2014-09-05 20:43:12.000000000 Z
+  vulnerabilities:
+  - name: Improper Privilege Management in MySQL Connectors Java
+    cve_id: CVE-2018-3258
+    cve_url: https://github.com/advisories/GHSA-4vrv-ch96-6h42
+    detected_date: Jun 29
+    severity: high
+    first_patched: 8.0.13
+  - name: Improper Access Control in MySQL Connectors Java
+    cve_id: CVE-2017-3523
+    cve_url: https://github.com/advisories/GHSA-2xxh-f8r3-hvvr
+    detected_date: Jul 2
+    severity: high
+    first_patched: 5.1.41
+  - name: Privilege escalation in mysql-connector-jav
+    cve_id: CVE-2019-2692
+    cve_url: https://github.com/advisories/GHSA-jcq3-cprp-m333
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.0.16
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
+      Connectors Java
+    cve_id: CVE-2017-3586
+    cve_url: https://github.com/advisories/GHSA-pwh7-92h3-mqr6
+    detected_date: Jul 2
+    severity: moderate
+    first_patched: 5.1.42
+  - name: Improper Access Control in MySQL Connectors Java
+    cve_id: CVE-2015-2575
+    cve_url: https://github.com/advisories/GHSA-gc43-g62c-99g2
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 5.1.35
+  - name: Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors
+      Java
+    cve_id: CVE-2022-21363
+    cve_url: https://github.com/advisories/GHSA-g76j-4cxx-23h9
+    detected_date: Jun 21
+    severity: moderate
+    first_patched: 8.0.28
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
+      Connectors Java
+    cve_id: CVE-2017-3589
+    cve_url: https://github.com/advisories/GHSA-cjcf-wm2p-59h5
+    detected_date: Jul 2
+    severity: low
+    first_patched: 5.1.42
+- name: org.apache.axis:axis
+  description: POM was created from deploy:deploy-file
+  version: '1.4'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+  vulnerabilities:
+  - name: Apache Axis 1.x (EOL) may allow RCE when untrusted input is passed to getService
+    cve_id: CVE-2023-40743
+    cve_url: https://github.com/advisories/GHSA-rmqp-9w4c-gc7w
+    detected_date: Oct 19
+    severity: critical
+    first_patched: 
+  - name: Server Side Request Forgery in Apache Axis
+    cve_id: CVE-2019-0227
+    cve_url: https://github.com/advisories/GHSA-h9gj-rqrw-x4fq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 
+  - name: Moderate severity vulnerability that affects apache axis
+    cve_id: CVE-2018-8032
+    cve_url: https://github.com/advisories/GHSA-96jq-75wh-2658
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 
+  - name: Moderate severity vulnerability that affects org.apache.axis:axis
+    cve_id: CVE-2014-3596
+    cve_url: https://github.com/advisories/GHSA-r53v-vm87-f72c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 
+  - name: Man-in-the-middle attack in Apache Axis
+    cve_id: CVE-2012-5784
+    cve_url: https://github.com/advisories/GHSA-55w9-c3g2-4rrh
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 
+- name: org.apache.commons:commons-email
+  description: Apache Commons Email aims to provide an API for sending email
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in Apache Commons Email
+    cve_id: CVE-2017-9801
+    cve_url: https://github.com/advisories/GHSA-p7vm-phxx-g722
+    detected_date: Jul 1
+    severity: high
+    first_patched: '1.5'
+  - name: Improper Input Validation Apache Commons Email
+    cve_id: CVE-2018-1294
+    cve_url: https://github.com/advisories/GHSA-v7cm-w955-pj6g
+    detected_date: Jun 30
+    severity: high
+    first_patched: '1.5'
+- name: org.apache.directory.api:api-all
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.apache.solr:solr-core
+  description: Apache Solr Core
+  version: 4.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+  vulnerabilities:
+  - name: Improper permission handling in Apache Solr
+    cve_id: CVE-2021-29262
+    cve_url: https://github.com/advisories/GHSA-jgcr-fg3g-qvw8
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.8.2
+  - name: XML External Entity (XXE) Injection in Apache Solr
+    cve_id: CVE-2019-0193
+    cve_url: https://github.com/advisories/GHSA-3gm7-v7vw-866c
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.2.0
+  - name: Server-Side Request Forgery (SSRF) in org.apache.solr:solr-core
+    cve_id: CVE-2017-3164
+    cve_url: https://github.com/advisories/GHSA-vrh8-27q8-fr8f
+    detected_date: Aug 22
+    severity: high
+    first_patched: 7.7.0
+  - name: Improper Limitation of a Pathname ('Path Traversal') in org.apache.solr:solr-core
+    cve_id: CVE-2017-3163
+    cve_url: https://github.com/advisories/GHSA-387v-84cv-9qmc
+    detected_date: Aug 22
+    severity: high
+    first_patched: 5.5.4
+  - name: 'There is a XML external entity expansion (XXE) vulnerability in Apache
+      Solr '
+    cve_id: CVE-2018-1308
+    cve_url: https://github.com/advisories/GHSA-3pph-2595-cgfh
+    detected_date: Aug 22
+    severity: high
+    first_patched: 6.6.3
+  - name: Apache Solr  vulnerable to XML Bomb
+    cve_id: CVE-2019-12401
+    cve_url: https://github.com/advisories/GHSA-jq2w-w7v2-69q5
+    detected_date: Nov 8
+    severity: high
+    first_patched: 5.0.0
+  - name: Improper Neutralization of Input During Web Page Generation in Apache Solr
+    cve_id: CVE-2015-8797
+    cve_url: https://github.com/advisories/GHSA-v6gf-x8fp-532v
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 5.3.1
+  - name: Improper Neutralization of Input During Web Page Generation in Apache Solr
+    cve_id: CVE-2015-8795
+    cve_url: https://github.com/advisories/GHSA-mx2h-hf7j-2x3p
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 5.1.0
+  - name: Incorrect Authorization in Apache Solr
+    cve_id: CVE-2018-11802
+    cve_url: https://github.com/advisories/GHSA-j346-h5wc-rw2m
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.7.0
+- name: org.apache.solr:solr-solrj
+  description: Apache Solr Solrj
+  version: 4.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.codehaus.jackson:jackson-core-asl
+  description: Jackson is a high-performance JSON processor
+  version: 1.9.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.codehaus.jettison:jettison
+  description: A StAX implementation for JSON
+  version: 1.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+  vulnerabilities:
+  - name: Jettison vulnerable to infinite recursion
+    cve_id: CVE-2023-1436
+    cve_url: https://github.com/advisories/GHSA-q6g2-g7f3-rr83
+    detected_date: Mar 23
+    severity: high
+    first_patched: 1.5.4
+  - name: Jettison Out-of-bounds Write vulnerability
+    cve_id: CVE-2022-45693
+    cve_url: https://github.com/advisories/GHSA-grr4-wv38-f68w
+    detected_date: Jan 5
+    severity: high
+    first_patched: 1.5.2
+  - name: Jettison Out-of-bounds Write vulnerability
+    cve_id: CVE-2022-45685
+    cve_url: https://github.com/advisories/GHSA-7rf3-mqpx-h7xg
+    detected_date: Jan 5
+    severity: high
+    first_patched: 1.5.2
+  - name: Jettison memory exhaustion
+    cve_id: CVE-2022-40150
+    cve_url: https://github.com/advisories/GHSA-x27m-9w8j-5vcw
+    detected_date: Sep 30
+    severity: high
+    first_patched: 1.5.2
+  - name: Jettison parser crash by stackoverflow
+    cve_id: CVE-2022-40149
+    cve_url: https://github.com/advisories/GHSA-56h3-78gp-v83r
+    detected_date: Sep 21
+    severity: moderate
+    first_patched: 1.5.1
+- name: org.eclipse.jetty:jetty-http
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.eclipse.jetty:jetty-server
+  description: The core jetty server artifact
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.eclipse.jetty:jetty-servlet
+  description: Jetty Servlet Container
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.eclipse.jetty:jetty-servlets
+  description: Utility Servlets from Jetty
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.eclipse.jetty:jetty-webapp
+  description: Jetty web application support
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.freemarker:freemarker
+  description: FreeMarker is a "template engine"; a generic tool to generate text
+    output based on templates
+  version: 2.3.16
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.glassfish.web:jstl-impl
+  description: Java.net - The Source for Java Technology Collaboration
+  version: '1.2'
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.hamcrest:hamcrest-all
+  description: A self-contained hamcrest jar containing all of the sub-modules in
+    a single artifact
+  version: '1.3'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.hibernate:hibernate-c3p0
+  description: Integration for c3p0 Connection pooling into Hibernate ORM
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.hibernate:hibernate-core
+  description: Hibernate's core ORM functionality
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.hibernate:hibernate-ehcache
+  description: Integration for using Ehcache 2.x as a Hibernate second-level-cache
+    provider
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.hibernate:hibernate-validator
+  description: Hibernate's Bean Validation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.hibernate:hibernate-validator-cdi
+  description: Hibernate Validator CDI Portable Extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.imgscalr:imgscalr-lib
+  description: Imgscalr is an simple and efficient best-practices image-scaling and
+    manipulation library implemented in pure Java
+  version: '4.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.jboss.weld.servlet:weld-servlet-core
+  description: Weld
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.jboss.weld:weld-core-impl
+  description: Weld's implementation of CDI
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.joda:joda-convert
+  description: Library to convert Objects to and from String
+  version: '1.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  version: 1.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+  vulnerabilities:
+  - name: Uncaught Exception in jsoup
+    cve_id: CVE-2021-37714
+    cve_url: https://github.com/advisories/GHSA-m72m-mhq2-9p6c
+    detected_date: Aug 24
+    severity: high
+    first_patched: 1.14.2
+  - name: jsoup may not sanitize code injection XSS attempts if SafeList.preserveRelativeLinks
+      is enabled
+    cve_id: CVE-2022-36033
+    cve_url: https://github.com/advisories/GHSA-gp7f-rwcx-9369
+    detected_date: Sep 2
+    severity: moderate
+    first_patched: 1.15.3
+  - name: Improper Neutralization of Input During Web Page Generation in Jsoup
+    cve_id: CVE-2015-6748
+    cve_url: https://github.com/advisories/GHSA-48rh-qgjr-xfj6
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 1.8.3
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 1.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.ocpsoft.prettytime:prettytime
+  description: Social Style Date and Time Formatting for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.scribe:scribe
+  description: The best OAuth library out there
+  version: 1.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.seleniumhq.selenium:selenium-java
+  description: Selenium automates browsers
+  version: 2.43.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: org.slf4j:slf4j-log4j12
+  description: SLF4J LOG4J-12 Binding
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Chico Sokol
+  last_updated_on: 2015-05-27 02:57:12.000000000 Z
+- name: qdox:qdox
+  description: QDox is a high speed, small footprint parser for extracting class/interface/method
+    definitions from source files complete with JavaDoc @tags
+  version: '1.5'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: guilherme
+  last_updated_on: 2013-01-31 19:03:34.000000000 Z
+- name: grunt-cli
+  description: The grunt command line interface
+  package_url: https://www.npmjs.com/grunt-cli
+  version: 0.1.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-09-15 15:47:55.000000000 Z
+- name: grunt-contrib-clean
+  description: Clean files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-clean
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-09-15 15:47:55.000000000 Z
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-09-15 15:47:55.000000000 Z
+- name: grunt-contrib-copy
+  description: Copy files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-copy
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-09-15 15:47:55.000000000 Z
+- name: grunt-contrib-cssmin
+  description: Minify CSS
+  package_url: https://www.npmjs.com/grunt-contrib-cssmin
+  version: 0.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16324/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-09-15 15:47:55.000000000 Z
+- name: grunt-contrib-less
+  description: Compile LESS files to CSS
+  package_url: https://www.npmjs.com/grunt-contrib-less
+  version: 0.11.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16581/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-09-15 15:47:55.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-09-15 15:47:55.000000000 Z
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  version: 0.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-09-15 15:47:55.000000000 Z
+- name: grunt-usemin
+  description: Replaces references to non-optimized scripts or stylesheets into a
+    set of HTML files
+  package_url: https://www.npmjs.com/grunt-usemin
+  version: 2.4.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17796/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/cristianospsp/mamute/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernanda Bernardo
+  last_updated_on: 2014-09-15 15:47:55.000000000 Z
