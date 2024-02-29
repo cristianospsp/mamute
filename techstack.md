@@ -62,7 +62,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [cristianospsp/mamute](https://github.com/cristianospsp/mamute)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|84<br/>Tools used|02/24/24 <br/>Report generated|
+|84<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
